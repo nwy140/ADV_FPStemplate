@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.0",
+	"EngineAssociation": "{6AAFE5DD-40C0-4444-8F57-E1A732BEB1D5}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "ADV_FPStemplate",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "HoudiniEngine",
